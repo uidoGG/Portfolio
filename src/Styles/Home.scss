@@ -1,0 +1,11 @@
+@import "./Variables";
+@import "./Globals.scss";
+
+
+.Home{
+display: flex;
+flex-direction: column;
+z-index: 1;
+position: relative;
+
+}

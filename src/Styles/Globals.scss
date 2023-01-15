@@ -1,0 +1,12 @@
+@import "./Variables";
+
+.link-button {
+    color: $main-btn-color;
+    background-color: $main-bkg-color;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out 0s;
+}

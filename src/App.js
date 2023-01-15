@@ -1,12 +1,14 @@
-import './App.css';
-import Header from "../src/components/Header"
-import Footer from "../src/components/Footer.js"
+import Header from "../src/Components/Header";
+import Footer from "../src/Components/Footer.js";
+import Router from "../src/Services/Router.js";
+import "../src/Styles/App.scss";
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-      <Footer/>
+      <Header />
+      <Router />
+      <Footer />
     </div>
   );
 }
