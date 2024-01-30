@@ -40,9 +40,7 @@ html {
   border-bottom: 0.3rem solid #333;
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
-/* End of Reset and Common Styles */
 
-/* Section 1 */
 .section-1 {
   position: relative;
   width: 100%;
@@ -142,15 +140,13 @@ html {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
-/* End of Section 1 */
 
-/* Navbar */
 .navbar {
   width: 100%;
   height: 4rem;
   background-color: #04044d;
-  box-shadow: 0.2rem 0.2rem 0.5rem rgba(226, 223, 6, 0.827);
   position: absolute;
+  top: 0;
   z-index: 300;
 }
 
@@ -196,14 +192,12 @@ html {
 .navbar-link:hover::before {
   width: 130%;
 }
-/* End of Navbar */
 
-/* Section 2 */
 .section-2 {
   width: 100%;
   height: 100%;
   padding: 15rem 0 10rem 0;
-  background-color: #fff;
+  background-color: #efdcc3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -328,9 +322,7 @@ html {
   transform: skew(-10deg);
   box-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
-/* End of Section 2 */
 
-/* Section 3 */
 .section-3 {
   width: 100%;
   height: 50%;
@@ -417,9 +409,7 @@ html {
   bottom: 5rem;
   transition: bottom 0.3s 0.3s;
 }
-/* End of Section 3 */
 
-/* Section 4 */
 .section-4 {
   width: 100%;
   margin: auto;
