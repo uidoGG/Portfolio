@@ -47,7 +47,7 @@ html {
   position: relative;
   width: 100%;
   height: 90vh;
-  background-image:url(images/istockphoto-1335422806-612x612.jpg);
+  background-image: url(images/istockphoto-1335422806-612x612.jpg);
   background-size: cover;
   flex-direction: column;
 }
@@ -103,7 +103,6 @@ html {
   text-align: center;
   width: 100%;
   height: 60px;
-
 }
 #text-name {
   font-size: 2rem;
@@ -343,7 +342,7 @@ html {
 }
 
 .projects-wrapper {
-  width: 89%;
+  max-width: 89%;
   flex-wrap: wrap;
 }
 
@@ -393,6 +392,8 @@ html {
 .project-img {
   width: 40rem;
   transition: opacity 0.3s;
+
+  object-fit: cover;
 }
 
 .project:hover .project-img {
@@ -463,20 +464,17 @@ html {
 
 .section-detail-email {
   align-content: center;
-  font-size: 2rem;
-  color: yellow;
+  font-size: 4rem;
+  color: white;
   box-shadow: none;
   border-color: #fff;
   margin-bottom: 50px;
 }
 
-.coffee-link{
+.coffee-link {
   cursor: pointer;
-  color: yellow;
-
+  color: white;
 }
-
-/* End of Section 4 */
 
 /* Section 5 */
 .section-5 {
@@ -488,6 +486,9 @@ html {
 
 .social-media {
   margin-bottom: 5rem;
+  color: white;
+  align-content: center;
+  align-content: space-between;
 }
 
 .social-media-link {
@@ -495,11 +496,16 @@ html {
   padding: 0.7rem;
   border-radius: 0.5rem;
   display: inline-block;
+  align-content: center;
+  align-content: space-between;
+  color: #fff;
 }
 
 .social-media-link i {
   font-size: 3rem;
   color: #fff;
+  align-content: center;
+  align-content: space-between;
 }
 
 /* End of Section 5 */
@@ -554,7 +560,8 @@ html {
   }
 
   .project-img {
-    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
   }
 
   .contact-form {
@@ -745,6 +752,10 @@ iPhone 13 mini
 
 /* End of Responsive */
 
-.OR{
-  color:white
+.OR {
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
