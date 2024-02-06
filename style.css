@@ -334,8 +334,11 @@ html {
 }
 
 .projects-wrapper {
-  max-width: 89%;
+  max-height: 10%;
+  max-width: 60%;
   flex-wrap: wrap;
+  flex-direction: row;
+  object-fit: cover;
 }
 
 .project {
